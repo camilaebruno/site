@@ -226,10 +226,12 @@ footer {
     .grid-left{
         grid-row-start: 3;
         grid-row-end: 4;
+        text-align: right;
     }
     .grid-rigth{
         grid-row-start: 3;
         grid-row-end: 4; 
+        text-align: left;
     }
     .grid-conteudo{
         grid-row-start: 2;

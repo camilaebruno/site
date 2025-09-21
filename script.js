@@ -30,8 +30,13 @@ const x = setInterval(function() {
     // Quando a contagem chega a zero
     if (distancia < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "LANÇAMENTO!";
+        document.getElementById("textoContagem").innerHTML = "CASAMOS!";
+        document.getElementById("countdown").innerHTML = '<p style="text-align: center;"><video width="100%"  autoplay muted loop> <source src="movies/videoCasamos.mp4" type="video/mp4"> Seu navegador não suporta a tag de vídeo.                            </video></p>';
+        document.getElementsByClassName("grid-left")[0].innerHTML = '';
+        document.getElementsByClassName("grid-rigth")[0].innerHTML = '';
     }
+
+    
 }, 1000);
 
 // var y = document.getElementById("musica"); 
