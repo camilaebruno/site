@@ -122,7 +122,6 @@ footer {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
-    height: 120px;
     text-align: center;
     /* top: 0;
     position: sticky; */
@@ -247,5 +246,6 @@ footer {
         grid-template-columns: 100%;
     }
 }
+
 
 
